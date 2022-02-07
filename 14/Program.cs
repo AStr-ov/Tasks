@@ -2,12 +2,10 @@
 int a=new Random().Next(0, 9999999);
 int b=a;
 int c=a;
-int count=0;
-while (b>0)
+for (int count = 0; b>a; count++)
 {
     b=a/10;
     a=b;
-    count++;
 }
 a=c;
 if (count>3)

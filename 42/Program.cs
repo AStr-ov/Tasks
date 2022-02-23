@@ -1,6 +1,6 @@
 ﻿//42. Определить сколько чисел больше 0 введено с клавиатуры
 Console.WriteLine("Введите через пробел числа");
-var a=Console.ReadLine().Split(" ").ToArray();
+var a=Console.ReadLine().Split(" ");
 int count=0;
 for (int i = 0; i < a.Length; i++)
 {

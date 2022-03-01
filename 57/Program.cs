@@ -31,7 +31,7 @@ for (int i = 0; i < array.GetLength(1) - 1; i++)
 {
     for (int j = 0; j < array.GetLength(0); j++)
     {
-        for (int k=i+1; k < array.GetLength(1); k++)//
+        for (int k=i+1; k < array.GetLength(1); k++)
         {
             if (array[j, i] < array[j, k])
             {
@@ -42,5 +42,5 @@ for (int i = 0; i < array.GetLength(1) - 1; i++)
         }
     }
 }
-Console.WriteLine("Массив, упорядоченный по убыванию элементы каждой строки:");
+Console.WriteLine("Массив, упорядоченный по убыванию элементов каждой строки:");
 PrintArr(array);
